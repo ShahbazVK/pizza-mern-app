@@ -1,0 +1,45 @@
+@import '~antd/dist/antd.css';
+
+html, body {
+    margin: 0; 
+    padding: 0;
+    width: 100vw; 
+    height: 100vh;
+    max-width: 100%;
+}
+.registersubmitbutton{
+    width: 10rem;
+}
+.ordersBackground{
+    background-color: rgba(223, 155, 100, 0.63);
+    padding: 20px;
+    
+}
+.adminbuttons .adminsubnavbarbutton{
+    width: 10rem;
+    height: 4.5rem;
+}
+.adminheading{
+    background-color: rgba(0, 0, 0, 0.801);
+    color: rgb(255, 240, 240);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.activeBtn Button{
+    background-color: red;
+}
+.activeBtn Button:hover{
+    background-color: red;
+}
+.addnewpizzaform{
+    background-color: rgba(20, 20, 20, 0.164);
+    padding: 1rem;
+}
+.editupdatebuttonrow Button{
+    width: 1rem;
+    height: 10rem;
+}
+.homepagepizzaimage{
+    height: 10rem;
+    /* width: 10rem; */
+}
