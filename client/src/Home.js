@@ -25,7 +25,8 @@ export const Home = () => {
 
     useEffect(() => {
         // setcartItem(JSON.parse(localStorage.getItem('cartItem')))
-    }, [])
+        console.log(pizzastate);
+    }, [pizzastate])
 
 
     const addToCartHandler = (keyToBeSearched, elementTobeSearched) => {

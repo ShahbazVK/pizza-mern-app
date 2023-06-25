@@ -5,11 +5,12 @@ const PizzaModel = require('../models/pizzaModel');
 const UserModel = require('../models/UserModel')
 const Order = require('../models/orderModel')
 const { v4: uuidv4 } = require('uuid');
+const pizzas = require('../pizza-data');
 const stripe = require('stripe')("sk_test_51Lo6PUHWs13Ra00Lrz09bfvOJjaQOAmkCkPIdyzHfK8PjFUxkCx9YKJrNGHRU9yFVmsWWUcurHDy1bHaEuKm3GtU00fn861oGe")
 
 router.get('/getallpizzas', async (req, res) => {
     try {
-        const pizzas = await PizzaModel.find({})
+        // const pizzas = await PizzaModel.find({})
         res.send(pizzas)
     }
     catch (err) {
